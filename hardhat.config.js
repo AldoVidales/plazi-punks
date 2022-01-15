@@ -1,8 +1,10 @@
 require("@nomiclabs/hardhat-waffle");
 require('dotenv').config()
 
+
 const proyectId=process.env.INFURA_PROJECT_ID
 const privateKey=process.env.DEPLOYER_SIGNER_PRIVATE_KEY
+
 
 module.exports = {
   defaultNetwork: "rinkeby",
